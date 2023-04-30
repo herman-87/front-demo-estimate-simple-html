@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #3d77d6;
+    height: 60px;
+}
+header img {
+    position: relative;
+    float: right;
+    right: 20px;
+    top: 10px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+nav {
+    clear: both;
+    position: absolute;
+    width: auto ;
+    height: 100vh;
+    background-color: #4b89ee;
+}
+ul {
+    position: relative;
+    top: 10px;
+}
+li {
+    width: 185px;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 4px;
+    cursor: pointer;
+}
+li img {
+    display: inline;
+    position: relative;
+    top: 5px;
+    width: 50px;
+    height: 20px;
+}
+li:hover {
+    background-color: #3879e1;
+    transition: 0.4s;
+}
+li a {
+    font-size: 13px;
+    font-family: 'Microsoft JhengHei UI Light', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+}
